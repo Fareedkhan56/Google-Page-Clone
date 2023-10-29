@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav ul li {
+   list-style: none;
+   padding: 10px;
+}
+nav ul {
+    display: flex;
+}
+.navbar{
+    padding: 10px;
+}
+nav img{
+    margin-top: 5px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    cursor:pointer ;
+}
+.navbar img:hover{
+    border: 1px solid rgb(153, 150, 150);
+    background-color: rgb(153, 150, 150);
+}
+.navbar button:hover{
+    background-color:  #206ce6;
+    cursor: pointer;
+}
+
+.navbar button{
+    height: 6vh;
+    width: 8vw;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color:  #4285f4;
+    border: 1px solid transparent;
+}
+
+.container img{
+    position: relative;
+    top: -68px;
+    left: 37vw;
+    margin: auto;
+}
+
+.container input{
+    height: 5vh;
+    width: 40vw;
+    position: relative;
+    top: -88px;
+    left: 4vw;
+    border: 0.5px solid rgb(132, 129, 129);
+    border-radius: 30px;
+    margin: auto;   
+    padding: 5px 8px 0 14px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    color: rgb(177, 172, 172);
+    margin-top: -55px;
+}
+
+.buttons button{
+    margin-left: 15px;
+    width: 10vw;
+    height: 6vh;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: rgb(48, 47, 47);
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.lang a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 180px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer li{
+    margin: 0px 0px 10px 40px;
+    list-style: none;
+}
+.footerContent{
+    display: flex;
+    margin: 10px 0px 0px 20px;
+}
+.footerContent ul{
+    display: flex;
+    justify-content: center;
+}
+.footerContent ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.secContent{
+    margin-left: 600px;
+}
+
+
